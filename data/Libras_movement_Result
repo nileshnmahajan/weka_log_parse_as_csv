@@ -1,0 +1,339 @@
+Jrip
+
+Time taken to build model: 0.14 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         187               51.9444 %
+Incorrectly Classified Instances       173               48.0556 %
+Kappa statistic                          0.4851
+Mean absolute error                      0.0698
+Root mean squared error                  0.2187
+Relative absolute error                 56.0952 %
+Root relative squared error             87.6639 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.542     0.045      0.464     0.542     0.5        0.777    One
+                 0.458     0.036      0.478     0.458     0.468      0.886    Two
+                 0.625     0.012      0.789     0.625     0.698      0.828    Three
+                 0.792     0.036      0.613     0.792     0.691      0.937    Four
+                 0.792     0.009      0.864     0.792     0.826      0.917    Five
+                 0.417     0.027      0.526     0.417     0.465      0.805    Six
+                 0.458     0.074      0.306     0.458     0.367      0.841    Seven
+                 0.333     0.051      0.32      0.333     0.327      0.765    Eight
+                 0.708     0.027      0.654     0.708     0.68       0.964    Nine
+                 0.375     0.033      0.45      0.375     0.409      0.759    One0
+                 0.125     0.057      0.136     0.125     0.13       0.821    OneOne
+                 0.5       0.024      0.6       0.5       0.545      0.801    OneTwo
+                 0.333     0.033      0.421     0.333     0.372      0.842    OneThree
+                 0.625     0.042      0.517     0.625     0.566      0.848    OneFour
+                 0.708     0.012      0.81      0.708     0.756      0.87     OneFive
+Weighted Avg.    0.519     0.034      0.53      0.519     0.52       0.844
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o   <-- classified as
+ 13  4  0  0  0  0  0  1  0  2  0  1  1  1  1 |  a = One
+  1 11  0  1  0  0  3  0  2  1  2  1  0  2  0 |  b = Two
+  0  0 15  1  0  1  2  2  1  1  1  0  0  0  0 |  c = Three
+  0  0  0 19  0  4  0  0  0  1  0  0  0  0  0 |  d = Four
+  1  0  0  2 19  1  0  0  0  0  0  0  0  1  0 |  e = Five
+  0  2  0  6  1 10  1  0  1  0  1  0  0  1  1 |  f = Six
+  2  1  2  0  0  0 11  3  1  1  0  1  0  2  0 |  g = Seven
+  2  0  0  1  0  1  2  8  1  0  3  0  3  2  1 |  h = Eight
+  1  1  1  0  0  0  2  0 17  0  1  0  0  0  1 |  i = Nine
+  2  0  0  0  0  1  5  0  2  9  1  4  0  0  0 |  j = One0
+  2  2  0  1  0  0  2  6  0  0  3  0  5  3  0 |  k = OneOne
+  2  1  1  0  0  0  4  0  0  4  0 12  0  0  0 |  l = OneTwo
+  1  0  0  0  0  0  0  5  1  0  7  0  8  2  0 |  m = OneThree
+  1  1  0  0  2  1  1  0  0  1  0  1  1 15  0 |  n = OneFour
+  0  0  0  0  0  0  3  0  0  0  3  0  1  0 17 |  o = OneFive
+
+Ridor
+
+
+Time taken to build model: 0.76 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         206               57.2222 %
+Incorrectly Classified Instances       154               42.7778 %
+Kappa statistic                          0.5417
+Mean absolute error                      0.057 
+Root mean squared error                  0.2388
+Relative absolute error                 45.8189 %
+Root relative squared error             95.7109 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.458     0.03       0.524     0.458     0.489      0.714    One
+                 0.417     0.027      0.526     0.417     0.465      0.695    Two
+                 0.792     0.006      0.905     0.792     0.844      0.893    Three
+                 0.792     0.015      0.792     0.792     0.792      0.888    Four
+                 0.708     0.015      0.773     0.708     0.739      0.847    Five
+                 0.5       0.024      0.6       0.5       0.545      0.738    Six
+                 0.583     0.033      0.56      0.583     0.571      0.775    Seven
+                 0.625     0.033      0.577     0.625     0.6        0.796    Eight
+                 0.667     0.033      0.593     0.667     0.627      0.817    Nine
+                 0.208     0.021      0.417     0.208     0.278      0.594    One0
+                 0.5       0.065      0.353     0.5       0.414      0.717    OneOne
+                 0.583     0.024      0.636     0.583     0.609      0.78     OneTwo
+                 0.375     0.06       0.31      0.375     0.34       0.658    OneThree
+                 0.833     0.036      0.625     0.833     0.714      0.899    OneFour
+                 0.542     0.039      0.5       0.542     0.52       0.751    OneFive
+Weighted Avg.    0.572     0.031      0.579     0.572     0.57       0.771
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o   <-- classified as
+ 11  4  0  0  1  0  0  2  1  1  2  0  0  2  0 |  a = One
+  1 10  0  1  1  0  0  0  4  1  2  2  1  0  1 |  b = Two
+  1  0 19  0  0  0  0  0  2  0  0  0  2  0  0 |  c = Three
+  0  0  0 19  1  2  1  0  0  0  0  0  0  1  0 |  d = Four
+  0  0  0  1 17  1  0  0  0  1  0  0  1  2  1 |  e = Five
+  0  1  0  3  0 12  1  0  1  0  1  0  0  5  0 |  f = Six
+  1  0  0  0  0  0 14  1  1  1  0  2  1  0  3 |  g = Seven
+  0  0  0  0  0  0  0 15  1  0  3  0  4  0  1 |  h = Eight
+  1  0  0  0  0  0  3  0 16  0  2  0  1  0  1 |  i = Nine
+  2  2  0  0  1  0  3  0  1  5  0  3  2  1  4 |  j = One0
+  1  0  0  0  0  0  0  4  0  0 12  0  7  0  0 |  k = OneOne
+  1  1  1  0  0  1  2  0  0  2  1 14  0  0  1 |  l = OneTwo
+  2  0  0  0  0  1  0  2  0  0 10  0  9  0  0 |  m = OneThree
+  0  0  0  0  1  2  0  0  0  0  0  0  0 20  1 |  n = OneFour
+  0  1  1  0  0  1  1  2  0  1  1  1  1  1 13 |  o = OneFive
+
+J48
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         237               65.8333 %
+Incorrectly Classified Instances       123               34.1667 %
+Kappa statistic                          0.6339
+Mean absolute error                      0.0467
+Root mean squared error                  0.1994
+Relative absolute error                 37.507  %
+Root relative squared error             79.9197 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.75      0.027      0.667     0.75      0.706      0.885    One
+                 0.458     0.027      0.55      0.458     0.5        0.811    Two
+                 0.875     0.006      0.913     0.875     0.894      0.954    Three
+                 0.833     0.018      0.769     0.833     0.8        0.947    Four
+                 0.75      0.021      0.72      0.75      0.735      0.907    Five
+                 0.5       0.03       0.545     0.5       0.522      0.824    Six
+                 0.75      0.042      0.563     0.75      0.643      0.872    Seven
+                 0.5       0.024      0.6       0.5       0.545      0.835    Eight
+                 0.792     0.024      0.704     0.792     0.745      0.883    Nine
+                 0.583     0.024      0.636     0.583     0.609      0.878    One0
+                 0.583     0.045      0.483     0.583     0.528      0.846    OneOne
+                 0.708     0.006      0.895     0.708     0.791      0.868    OneTwo
+                 0.375     0.033      0.45      0.375     0.409      0.743    OneThree
+                 0.792     0.018      0.76      0.792     0.776      0.926    OneFour
+                 0.625     0.024      0.652     0.625     0.638      0.819    OneFive
+Weighted Avg.    0.658     0.024      0.66      0.658     0.656      0.867
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o   <-- classified as
+ 18  3  0  0  0  0  2  0  0  0  1  0  0  0  0 |  a = One
+  2 11  0  0  1  4  1  0  5  0  0  0  0  0  0 |  b = Two
+  0  0 21  0  1  0  0  0  1  0  0  0  0  0  1 |  c = Three
+  0  1  0 20  0  1  0  0  1  1  0  0  0  0  0 |  d = Four
+  0  1  0  1 18  2  0  0  0  0  0  0  0  2  0 |  e = Five
+  3  0  0  5  1 12  0  0  0  0  0  0  0  3  0 |  f = Six
+  0  0  0  0  0  1 18  2  0  2  0  0  0  0  1 |  g = Seven
+  0  0  0  0  0  0  1 12  0  0  4  0  2  1  4 |  h = Eight
+  0  2  0  0  0  0  3  0 19  0  0  0  0  0  0 |  i = Nine
+  3  1  0  0  0  1  4  0  0 14  0  1  0  0  0 |  j = One0
+  0  0  0  0  0  0  0  1  0  0 14  0  9  0  0 |  k = OneOne
+  0  1  0  0  0  0  0  0  0  4  0 17  0  0  2 |  l = OneTwo
+  0  0  1  0  0  0  1  2  1  0 10  0  9  0  0 |  m = OneThree
+  1  0  0  0  3  1  0  0  0  0  0  0  0 19  0 |  n = OneFour
+  0  0  1  0  1  0  2  3  0  1  0  1  0  0 15 |  o = OneFive
+
+SC
+
+Time taken to build model: 0.15 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         218               60.5556 %
+Incorrectly Classified Instances       142               39.4444 %
+Kappa statistic                          0.5774
+Mean absolute error                      0.0559
+Root mean squared error                  0.2073
+Relative absolute error                 44.8783 %
+Root relative squared error             83.0952 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.625     0.024      0.652     0.625     0.638      0.859    One
+                 0.708     0.033      0.607     0.708     0.654      0.837    Two
+                 0.792     0.012      0.826     0.792     0.809      0.906    Three
+                 0.75      0.018      0.75      0.75      0.75       0.944    Four
+                 0.75      0.015      0.783     0.75      0.766      0.915    Five
+                 0.417     0.03       0.5       0.417     0.455      0.812    Six
+                 0.542     0.039      0.5       0.542     0.52       0.839    Seven
+                 0.375     0.039      0.409     0.375     0.391      0.752    Eight
+                 0.708     0.033      0.607     0.708     0.654      0.921    Nine
+                 0.458     0.018      0.647     0.458     0.537      0.842    One0
+                 0.375     0.051      0.346     0.375     0.36       0.77     OneOne
+                 0.833     0.027      0.69      0.833     0.755      0.944    OneTwo
+                 0.333     0.045      0.348     0.333     0.34       0.803    OneThree
+                 0.708     0.012      0.81      0.708     0.756      0.862    OneFour
+                 0.708     0.03       0.63      0.708     0.667      0.92     OneFive
+Weighted Avg.    0.606     0.028      0.607     0.606     0.603      0.862
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o   <-- classified as
+ 15  1  0  1  1  1  3  0  0  1  1  0  0  0  0 |  a = One
+  0 17  0  1  0  2  1  0  2  1  0  0  0  0  0 |  b = Two
+  0  0 19  0  0  0  0  1  1  0  1  0  1  0  1 |  c = Three
+  2  0  0 18  1  1  0  0  1  0  0  0  0  0  1 |  d = Four
+  0  0  0  1 18  1  0  0  1  0  0  0  0  2  1 |  e = Five
+  2  2  1  2  1 10  0  0  3  0  1  0  0  2  0 |  f = Six
+  1  0  0  0  0  0 13  2  2  1  0  5  0  0  0 |  g = Seven
+  1  0  1  0  0  0  2  9  1  0  4  0  4  0  2 |  h = Eight
+  0  4  0  0  1  2  0  0 17  0  0  0  0  0  0 |  i = Nine
+  2  3  0  0  0  0  3  0  0 11  0  3  0  0  2 |  j = One0
+  0  0  0  0  0  1  0  3  0  1  9  0 10  0  0 |  k = OneOne
+  0  0  0  0  0  0  3  0  0  0  0 20  0  0  1 |  l = OneTwo
+  0  0  1  0  0  0  0  5  0  0  9  0  8  0  1 |  m = OneThree
+  0  1  0  1  0  1  0  0  0  2  0  1  0 17  1 |  n = OneFour
+  0  0  1  0  1  1  1  2  0  0  1  0  0  0 17 |  o = OneFive
+
+
+NB
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         219               60.8333 %
+Incorrectly Classified Instances       141               39.1667 %
+Kappa statistic                          0.5804
+Mean absolute error                      0.0548
+Root mean squared error                  0.2102
+Relative absolute error                 44.0479 %
+Root relative squared error             84.2523 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.583     0.024      0.636     0.583     0.609      0.946    One
+                 0.583     0.018      0.7       0.583     0.636      0.958    Two
+                 0.833     0.003      0.952     0.833     0.889      0.969    Three
+                 0.833     0.021      0.741     0.833     0.784      0.981    Four
+                 0.792     0.003      0.95      0.792     0.864      0.993    Five
+                 0.25      0.036      0.333     0.25      0.286      0.917    Six
+                 0.583     0.03       0.583     0.583     0.583      0.904    Seven
+                 0.542     0.048      0.448     0.542     0.491      0.918    Eight
+                 0.708     0.024      0.68      0.708     0.694      0.947    Nine
+                 0.25      0.042      0.3       0.25      0.273      0.857    One0
+                 0.458     0.039      0.458     0.458     0.458      0.95     OneOne
+                 0.75      0.039      0.581     0.75      0.655      0.976    OneTwo
+                 0.5       0.045      0.444     0.5       0.471      0.954    OneThree
+                 0.792     0.024      0.704     0.792     0.745      0.962    OneFour
+                 0.667     0.027      0.64      0.667     0.653      0.846    OneFive
+Weighted Avg.    0.608     0.028      0.61      0.608     0.606      0.938
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o   <-- classified as
+ 14  3  0  0  0  3  1  2  1  0  0  0  0  0  0 |  a = One
+  2 14  1  0  0  1  0  0  3  3  0  0  0  0  0 |  b = Two
+  0  0 20  0  0  1  0  1  0  0  0  0  0  0  2 |  c = Three
+  0  0  0 20  1  3  0  0  0  0  0  0  0  0  0 |  d = Four
+  0  0  0  0 19  1  0  0  0  0  0  0  0  4  0 |  e = Five
+  4  2  0  7  0  6  0  0  1  0  0  0  0  3  1 |  f = Six
+  0  0  0  0  0  0 14  1  2  4  0  2  0  0  1 |  g = Seven
+  0  0  0  0  0  0  0 13  1  0  4  0  6  0  0 |  h = Eight
+  0  1  0  0  0  0  0  0 17  6  0  0  0  0  0 |  i = Nine
+  0  0  0  0  0  0  4  0  0  6  0 10  0  1  3 |  j = One0
+  0  0  0  0  0  0  0  4  0  0 11  0  9  0  0 |  k = OneOne
+  0  0  0  0  0  0  4  0  0  1  0 18  0  0  1 |  l = OneTwo
+  0  0  0  0  0  0  0  2  0  0  9  0 12  0  1 |  m = OneThree
+  1  0  0  0  0  2  1  0  0  0  0  1  0 19  0 |  n = OneFour
+  1  0  0  0  0  1  0  6  0  0  0  0  0  0 16 |  o = OneFive
+
+IBK
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         304               84.4444 %
+Incorrectly Classified Instances        56               15.5556 %
+Kappa statistic                          0.8333
+Mean absolute error                      0.0253
+Root mean squared error                  0.1413
+Relative absolute error                 20.3308 %
+Root relative squared error             56.6295 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.708     0.006      0.895     0.708     0.791      0.854    One
+                 0.792     0.018      0.76      0.792     0.776      0.889    Two
+                 0.958     0.003      0.958     0.958     0.958      0.957    Three
+                 0.917     0.006      0.917     0.917     0.917      0.956    Four
+                 1         0.003      0.96      1         0.98       0.999    Five
+                 0.792     0.003      0.95      0.792     0.864      0.896    Six
+                 0.958     0.015      0.821     0.958     0.885      0.972    Seven
+                 0.792     0.021      0.731     0.792     0.76       0.867    Eight
+                 1         0.024      0.75      1         0.857      0.988    Nine
+                 0.75      0.006      0.9       0.75      0.818      0.874    One0
+                 0.625     0.021      0.682     0.625     0.652      0.784    OneOne
+                 0.833     0.009      0.87      0.833     0.851      0.914    OneTwo
+                 0.625     0.018      0.714     0.625     0.667      0.805    OneThree
+                 0.958     0.009      0.885     0.958     0.92       0.975    OneFour
+                 0.958     0.006      0.92      0.958     0.939      0.974    OneFive
+Weighted Avg.    0.844     0.011      0.847     0.844     0.842      0.914
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o   <-- classified as
+ 17  6  0  0  0  0  0  0  1  0  0  0  0  0  0 |  a = One
+  2 19  0  0  0  0  0  0  3  0  0  0  0  0  0 |  b = Two
+  0  0 23  0  0  0  0  0  0  0  0  0  0  0  1 |  c = Three
+  0  0  0 22  0  1  0  0  1  0  0  0  0  0  0 |  d = Four
+  0  0  0  0 24  0  0  0  0  0  0  0  0  0  0 |  e = Five
+  0  0  0  2  0 19  0  0  1  0  0  0  0  2  0 |  f = Six
+  0  0  0  0  0  0 23  0  1  0  0  0  0  0  0 |  g = Seven
+  0  0  1  0  0  0  0 19  1  0  2  0  0  0  1 |  h = Eight
+  0  0  0  0  0  0  0  0 24  0  0  0  0  0  0 |  i = Nine
+  0  0  0  0  0  0  2  0  0 18  0  3  0  1  0 |  j = One0
+  0  0  0  0  0  0  0  3  0  0 15  0  6  0  0 |  k = OneOne
+  0  0  0  0  0  0  2  0  0  2  0 20  0  0  0 |  l = OneTwo
+  0  0  0  0  0  0  0  4  0  0  5  0 15  0  0 |  m = OneThree
+  0  0  0  0  1  0  0  0  0  0  0  0  0 23  0 |  n = OneFour
+  0  0  0  0  0  0  1  0  0  0  0  0  0  0 23 |  o = OneFive
+
+
+
+
+
+
+
+

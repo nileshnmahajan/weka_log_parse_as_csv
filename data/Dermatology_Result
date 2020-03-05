@@ -1,0 +1,232 @@
+Jrip:
+
+
+Time taken to build model: 0.13 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         326               89.071  %
+Incorrectly Classified Instances        40               10.929  %
+Kappa statistic                          0.8634
+Mean absolute error                      0.049 
+Root mean squared error                  0.1701
+Relative absolute error                 18.4008 %
+Root relative squared error             46.6261 %
+Total Number of Instances              366     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.721     0.052      0.733     0.721     0.727      0.924    Two
+                 0.955     0.016      0.964     0.955     0.96       0.986    One
+                 0.958     0          1         0.958     0.979      0.983    Three
+                 0.923     0.003      0.98      0.923     0.95       0.994    Five
+                 0.776     0.057      0.679     0.776     0.724      0.956    Four
+                 1         0.003      0.952     1         0.976      0.997    Six
+Weighted Avg.    0.891     0.022      0.896     0.891     0.893      0.973
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   <-- classified as
+  44   3   0   0  13   1 |   a = Two
+   5 107   0   0   0   0 |   b = One
+   1   0  69   1   1   0 |   c = Three
+   0   0   0  48   4   0 |   d = Five
+  10   1   0   0  38   0 |   e = Four
+   0   0   0   0   0  20 |   f = Six
+
+
+Ridor
+
+Total number of rules (incl. the default rule): 12
+
+Time taken to build model: 0.13 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         334               91.2568 %
+Incorrectly Classified Instances        32                8.7432 %
+Kappa statistic                          0.8905
+Mean absolute error                      0.0291
+Root mean squared error                  0.1707
+Relative absolute error                 10.9364 %
+Root relative squared error             46.7846 %
+Total Number of Instances              366     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.738     0.039      0.789     0.738     0.763      0.849    Two
+                 0.982     0.016      0.965     0.982     0.973      0.983    One
+                 0.958     0.003      0.986     0.958     0.972      0.977    Three
+                 1         0.006      0.963     1         0.981      0.997    Five
+                 0.776     0.038      0.76      0.776     0.768      0.869    Four
+                 1         0.003      0.952     1         0.976      0.999    Six
+Weighted Avg.    0.913     0.018      0.911     0.913     0.912      0.947
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   <-- classified as
+  45   4   0   0  11   1 |   a = Two
+   1 110   1   0   0   0 |   b = One
+   0   0  69   2   1   0 |   c = Three
+   0   0   0  52   0   0 |   d = Five
+  11   0   0   0  38   0 |   e = Four
+   0   0   0   0   0  20 |   f = Six
+
+J48
+
+Time taken to build model: 0.06 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         336               91.8033 %
+Incorrectly Classified Instances        30                8.1967 %
+Kappa statistic                          0.8974
+Mean absolute error                      0.0357
+Root mean squared error                  0.1525
+Relative absolute error                 13.3918 %
+Root relative squared error             41.7858 %
+Total Number of Instances              366     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.754     0.039      0.793     0.754     0.773      0.925    Two
+                 0.991     0.008      0.982     0.991     0.987      0.987    One
+                 0.972     0.003      0.986     0.972     0.979      0.989    Three
+                 1         0.006      0.963     1         0.981      0.998    Five
+                 0.755     0.035      0.771     0.755     0.763      0.96     Four
+                 1         0.006      0.909     1         0.952      0.995    Six
+Weighted Avg.    0.918     0.016      0.916     0.918     0.917      0.976
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   <-- classified as
+  46   2   0   0  11   2 |   a = Two
+   0 111   1   0   0   0 |   b = One
+   0   0  70   2   0   0 |   c = Three
+   0   0   0  52   0   0 |   d = Five
+  12   0   0   0  37   0 |   e = Four
+   0   0   0   0   0  20 |   f = Six
+
+SimpleCart(SC)
+
+Time taken to build model: 0.15 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         329               89.8907 %
+Incorrectly Classified Instances        37               10.1093 %
+Kappa statistic                          0.8736
+Mean absolute error                      0.0426
+Root mean squared error                  0.1655
+Relative absolute error                 15.9731 %
+Root relative squared error             45.3516 %
+Total Number of Instances              366     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.705     0.052      0.729     0.705     0.717      0.92     Two
+                 0.973     0.008      0.982     0.973     0.978      0.988    One
+                 0.986     0          1         0.986     0.993      0.992    Three
+                 0.981     0.003      0.981     0.981     0.981      0.984    Five
+                 0.755     0.05       0.698     0.755     0.725      0.929    Four
+                 0.9       0.006      0.9       0.9       0.9        0.945    Six
+Weighted Avg.    0.899     0.019      0.901     0.899     0.9        0.967
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   <-- classified as
+  43   1   0   0  15   2 |   a = Two
+   3 109   0   0   0   0 |   b = One
+   0   0  71   1   0   0 |   c = Three
+   0   1   0  51   0   0 |   d = Five
+  12   0   0   0  37   0 |   e = Four
+   1   0   0   0   1  18 |   f = Six
+
+
+
+
+
+NB
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         346               94.5355 %
+Incorrectly Classified Instances        20                5.4645 %
+Kappa statistic                          0.9316
+Mean absolute error                      0.0241
+Root mean squared error                  0.1143
+Relative absolute error                  9.0364 %
+Root relative squared error             31.3262 %
+Total Number of Instances              366     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.754     0.016      0.902     0.754     0.821      0.982    Two
+                 1         0.004      0.991     1         0.996      1        One
+                 1         0          1         1         1          1        Three
+                 1         0.006      0.963     1         0.981      1        Five
+                 0.898     0.038      0.786     0.898     0.838      0.982    Four
+                 1         0          1         1         1          1        Six
+Weighted Avg.    0.945     0.01       0.947     0.945     0.945      0.995
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   <-- classified as
+  46   1   0   2  12   0 |   a = Two
+   0 112   0   0   0   0 |   b = One
+   0   0  72   0   0   0 |   c = Three
+   0   0   0  52   0   0 |   d = Five
+   5   0   0   0  44   0 |   e = Four
+   0   0   0   0   0  20 |   f = Six
+
+
+IBK
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         338               92.3497 %
+Incorrectly Classified Instances        28                7.6503 %
+Kappa statistic                          0.9043
+Mean absolute error                      0.0299
+Root mean squared error                  0.157 
+Relative absolute error                 11.2261 %
+Root relative squared error             43.0325 %
+Total Number of Instances              366     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.82      0.046      0.781     0.82      0.8        0.872    Two
+                 0.973     0.004      0.991     0.973     0.982      0.977    One
+                 0.972     0          1         0.972     0.986      0.992    Three
+                 0.981     0.003      0.981     0.981     0.981      0.983    Five
+                 0.776     0.038      0.76      0.776     0.768      0.886    Four
+                 1         0          1         1         1          1        Six
+Weighted Avg.    0.923     0.014      0.926     0.923     0.925      0.952
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   <-- classified as
+  50   1   0   1   9   0 |   a = Two
+   2 109   0   0   1   0 |   b = One
+   1   0  70   0   1   0 |   c = Three
+   0   0   0  51   1   0 |   d = Five
+  11   0   0   0  38   0 |   e = Four
+   0   0   0   0   0  20 |   f = Six
+
+

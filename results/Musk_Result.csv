@@ -1,0 +1,46 @@
+"","","","","",Musk_Result
+
+
+
+"","","","","",Jrip
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+127,80,0.614,0.13,0.784,0.614,0.688,0.773,Musk
+35,234,0.87,0.386,0.745,0.87,0.803,0.773,non
+
+
+
+"","","","","",Ridor
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+127,80,0.614,0.171,0.734,0.614,0.668,0.721,Musk
+46,223,0.829,0.386,0.736,0.829,0.78,0.721,non
+
+
+
+"","","","","",J48
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+161,46,0.778,0.164,0.785,0.778,0.782,0.826,Musk
+44,225,0.836,0.222,0.83,0.836,0.833,0.826,non
+
+
+
+"","","","","",SC
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+156,51,0.754,0.134,0.813,0.754,0.782,0.839,Musk
+36,233,0.866,0.246,0.82,0.866,0.843,0.839,non
+
+
+
+"","","","","",NB
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+162,45,0.783,0.279,0.684,0.783,0.73,0.836,Musk
+75,194,0.721,0.217,0.812,0.721,0.764,0.836,non
+
+
+
+"","","","","",IBK
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+175,32,0.845,0.138,0.825,0.845,0.835,0.858,Musk
+37,232,0.862,0.155,0.879,0.862,0.871,0.858,non
+
+
+

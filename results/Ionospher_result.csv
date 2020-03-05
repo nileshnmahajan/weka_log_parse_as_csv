@@ -1,0 +1,46 @@
+"","","","","",Ionospher_result
+
+
+
+"","","","","",Jrip
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+209,17,0.929,0.183,0.901,0.929,0.915,0.873,g
+23,102,0.817,0.071,0.866,0.817,0.841,0.873,b
+
+
+
+"","","","","",Ridor
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+209,16,0.929,0.143,0.921,0.929,0.925,0.897,g
+18,108,0.857,0.071,0.871,0.857,0.864,0.897,b
+
+
+
+"","","","","",J48
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+216,9,0.96,0.151,0.919,0.96,0.939,0.934,g
+19,107,0.849,0.04,0.922,0.849,0.884,0.934,b
+
+
+
+"","","","","",SC
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+210,16,0.933,0.151,0.917,0.933,0.925,0.91,g
+19,106,0.849,0.067,0.877,0.849,0.863,0.91,b
+
+
+
+"","","","","",NB
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+203,21,0.907,0.119,0.932,0.907,0.919,0.957,g
+16,111,0.881,0.093,0.841,0.881,0.86,0.957,b
+
+
+
+"","","","","",IBK
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+216,9,0.96,0.214,0.889,0.96,0.923,0.876,g
+27,99,0.786,0.04,0.917,0.786,0.846,0.876,b
+
+
+

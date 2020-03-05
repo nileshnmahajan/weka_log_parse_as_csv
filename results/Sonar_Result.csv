@@ -1,0 +1,46 @@
+"","","","","",Sonar_Result
+
+
+
+"","","","","",Jrip
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+81,16,0.835,0.207,0.779,0.835,0.806,0.813,R
+23,88,0.793,0.165,0.846,0.793,0.819,0.813,M
+
+
+
+"","","","","",Ridor
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+68,29,0.701,0.225,0.731,0.701,0.716,0.738,R
+25,86,0.775,0.299,0.748,0.775,0.761,0.738,M
+
+
+
+"","","","","",J48
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+64,33,0.66,0.135,0.81,0.66,0.727,0.807,R
+15,96,0.865,0.34,0.744,0.865,0.8,0.807,M
+
+
+
+"","","","","",SC
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+72,25,0.742,0.18,0.783,0.742,0.762,0.819,R
+20,91,0.82,0.258,0.784,0.82,0.802,0.819,M
+
+
+
+"","","","","",NB
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+79,18,0.814,0.351,0.669,0.814,0.735,0.835,R
+39,72,0.649,0.186,0.8,0.649,0.716,0.835,M
+
+
+
+"","","","","",IBK
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+78,19,0.804,0.108,0.867,0.804,0.834,0.849,R
+12,99,0.892,0.196,0.839,0.892,0.865,0.849,M
+
+
+

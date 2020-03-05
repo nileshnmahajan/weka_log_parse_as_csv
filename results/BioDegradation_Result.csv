@@ -1,0 +1,46 @@
+"","","","","",BioDegradation_Result
+
+
+
+"","","","","",Jrip
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+257,99,0.722,0.13,0.739,0.722,0.73,0.815,RB
+91,608,0.87,0.278,0.86,0.87,0.865,0.815,NRB
+
+
+
+"","","","","",Ridor
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+206,150,0.579,0.087,0.772,0.579,0.661,0.746,RB
+61,638,0.913,0.421,0.81,0.913,0.858,0.746,NRB
+
+
+
+"","","","","",J48
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+260,96,0.73,0.107,0.776,0.73,0.753,0.837,RB
+75,624,0.893,0.27,0.867,0.893,0.879,0.837,NRB
+
+
+
+"","","","","",SC
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+253,103,0.711,0.102,0.781,0.711,0.744,0.858,RB
+71,628,0.898,0.289,0.859,0.898,0.878,0.858,NRB
+
+
+
+"","","","","",NB
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+325,31,0.913,0.34,0.577,0.913,0.707,0.884,RB
+238,461,0.66,0.087,0.937,0.66,0.774,0.883,NRB
+
+
+
+"","","","","",IBK
+a,b,TP Rate,FP Rate,Precision,Recall,F-Measure,ROC Area,Class
+273,83,0.767,0.14,0.736,0.767,0.751,0.812,RB
+98,601,0.86,0.233,0.879,0.86,0.869,0.812,NRB
+
+
+

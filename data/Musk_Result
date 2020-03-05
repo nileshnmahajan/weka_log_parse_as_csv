@@ -1,0 +1,178 @@
+Jrip
+
+Time taken to build model: 0.16 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         361               75.8403 %
+Incorrectly Classified Instances       115               24.1597 %
+Kappa statistic                          0.4958
+Mean absolute error                      0.2972
+Root mean squared error                  0.4343
+Relative absolute error                 60.4656 %
+Root relative squared error             87.6028 %
+Total Number of Instances              476     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.614     0.13       0.784     0.614     0.688      0.773    Musk
+                 0.87      0.386      0.745     0.87      0.803      0.773    non
+Weighted Avg.    0.758     0.275      0.762     0.758     0.753      0.773
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 127  80 |   a = Musk
+  35 234 |   b = non
+
+Ridor
+
+Time taken to build model: 0.08 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         350               73.5294 %
+Incorrectly Classified Instances       126               26.4706 %
+Kappa statistic                          0.4511
+Mean absolute error                      0.2647
+Root mean squared error                  0.5145
+Relative absolute error                 53.8495 %
+Root relative squared error            103.7811 %
+Total Number of Instances              476     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.614     0.171      0.734     0.614     0.668      0.721    Musk
+                 0.829     0.386      0.736     0.829     0.78       0.721    non
+Weighted Avg.    0.735     0.293      0.735     0.735     0.731      0.721
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 127  80 |   a = Musk
+  46 223 |   b = non
+
+J48
+
+Time taken to build model: 0.14 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         386               81.0924 %
+Incorrectly Classified Instances        90               18.9076 %
+Kappa statistic                          0.6149
+Mean absolute error                      0.1931
+Root mean squared error                  0.4203
+Relative absolute error                 39.2761 %
+Root relative squared error             84.7747 %
+Total Number of Instances              476     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.778     0.164      0.785     0.778     0.782      0.826    Musk
+                 0.836     0.222      0.83      0.836     0.833      0.826    non
+Weighted Avg.    0.811     0.197      0.811     0.811     0.811      0.826
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 161  46 |   a = Musk
+  44 225 |   b = non
+
+SC
+
+Time taken to build model: 0.21 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         389               81.7227 %
+Incorrectly Classified Instances        87               18.2773 %
+Kappa statistic                          0.625 
+Mean absolute error                      0.2074
+Root mean squared error                  0.4048
+Relative absolute error                 42.1914 %
+Root relative squared error             81.6465 %
+Total Number of Instances              476     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.754     0.134      0.813     0.754     0.782      0.839    Musk
+                 0.866     0.246      0.82      0.866     0.843      0.839    non
+Weighted Avg.    0.817     0.197      0.817     0.817     0.816      0.839
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 156  51 |   a = Musk
+  36 233 |   b = non
+
+NB
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         356               74.7899 %
+Incorrectly Classified Instances       120               25.2101 %
+Kappa statistic                          0.4955
+Mean absolute error                      0.2531
+Root mean squared error                  0.4688
+Relative absolute error                 51.4806 %
+Root relative squared error             94.5714 %
+Total Number of Instances              476     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.783     0.279      0.684     0.783     0.73       0.836    Musk
+                 0.721     0.217      0.812     0.721     0.764      0.836    non
+Weighted Avg.    0.748     0.244      0.756     0.748     0.749      0.836
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 162  45 |   a = Musk
+  75 194 |   b = non
+
+IBK
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         407               85.5042 %
+Incorrectly Classified Instances        69               14.4958 %
+Kappa statistic                          0.7059
+Mean absolute error                      0.1466
+Root mean squared error                  0.3799
+Relative absolute error                 29.8247 %
+Root relative squared error             76.6221 %
+Total Number of Instances              476     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.845     0.138      0.825     0.845     0.835      0.858    Musk
+                 0.862     0.155      0.879     0.862     0.871      0.858    non
+Weighted Avg.    0.855     0.147      0.856     0.855     0.855      0.858
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 175  32 |   a = Musk
+  37 232 |   b = non
+
+
+
+
+
